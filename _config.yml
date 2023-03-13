@@ -6,34 +6,34 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: Ian Oxborrow
+title: Junior Software Engineer
+email: ian.s.oxborrow@gmail.com
+website: oxborrow.co
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: facespics
-github_username:  sproogen
-# stackoverflow_username: "00000001"
+#twitter_username: facespics
+github_username:  IanOxborrow
+stackoverflow_username: "user3789915"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
+#instagram_username: jameswgrant
+linkedin_username: ian-oxborrow-541a231a9
 # xing_username: jekyll
 # pinterest_username: jekyll
-youtube_username: globalmtb
+#youtube_username: globalmtb
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
+#additional_links:
+#- title: itsgoingto.be
+#  icon: fas fa-globe
+#  url: https://www.itsgoingto.be
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -48,69 +48,96 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
-
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  Hi I'm Ian. I am an honours student with a passion for machine learning and experience in mobile app development.
+  
+  I am most skilled in: <mark>Android</mark> and <mark>React Native</mark>
 
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
+        title: Facial Landmark-Based Morphing using Thin Plate Spline Interpolation
+        link: https://github.com/IanOxborrow/the-emojification-of-will-greyham
+        link_text: The Emojification of Will Greyham
+        # additional_links:
+        #  - title:  sproogen/modern-resume-theme
+        #    icon: fab fa-github
+        #    url: github.com/sproogen/modern-resume-theme
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          This project was an experiment in using machine learning techinques in conjunction with mathematical techinques to morphed a face to match a target. Through the identification of facial landamarks, a thin plate spline is generated, allowing for smooth transitions between two images.
+      - layout: top-middle
+        title: Sensible
+        link: https://play.google.com/store/apps/details?id=au.com.erigma.sensible
+        link_text: Sensible on Google Play
+        description: |
+          Developed a cross platform data collection app using React Native. As part of the project, I had to collaborate as a technology lead within a small team of six. During this period, I also familiarised and trained new developers with the codebase and technology stack.   
+      - layout: top-middle
+        title: Developed server running Flux and Kubernetes
+        link: 
+        link_text: <>
+        # additional_links:
+        #  - title:  sproogen/modern-resume-theme
+        #    icon: fab fa-github
+        #    url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        description: | # this will include new lines to allow paragraphs
+          This project was started as a way of teaching myself how to use Kubernetes. Since then, the cluster now manages most of my servers. In its current state the cluster is running Prometheus, Grafana, Plex, Tautulli, Jellyfin, Terraria and Minecraft with plans to introduce a nextcloud instance and a jupyterhub instance.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: The Boring Company
-        link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
+        title: Big W
+        link: https://www.bigw.com.au
+        link_text: bigw.com.au
+        sub_title: Fill Team
         caption: November 2017 - Present
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+            My role in Big W was as a fill team member. This role had me working in small teams of two to six and had me interfacing directly with customers. Durning this period I learned to effectivly work within an orginastional structure with a customer facing focus, as wall as leading small teams.
+      - layout: left
+        title: BiPi Pty Ltd
+        sub_title: Lead Developer
+        caption: January 2020 - November 2020
+        description: | # this will include new lines to allow paragraphs
+            I undertook my role at BuildItPayIt as part of ANU's TechLauncher program. Under this program, students complete an internship, gaining experience in a professional work environment and with a real project. As a part of the team, I was responsible for building a mobile application that allows builders to collect payment and hold it in esgrow.
 
+            My role included developing the app's front-end using React Native, and integrating RESTful APIs with the backend to retrieve and display data. Part of my responsibility included designing the bulk of the UX/UI of the app. The team and I were also involved with directly engaging stakeholders to ensure their needs and requirements were being met throughout the project. This involved regular communication, presenting progress updates, and gathering feedback to make necessary adjustments.
+
+            Throughout my time at BiPi, I learned a lot about React Native, especially its capabilities for cross-platform mobile application development. I also gained experience in Agile methodologies, including Scrum and Kanban, which helped our team work together more efficiently and effectively.
+
+            Overall, my experience as a React Native developer at BiPi was extremely fulfilling, and I am proud of the work that the team and I accomplished. The skills and knowledge that I gained during my time there have been invaluable, and I look forward to using them in future projects.
+      #- layout: left
+      #  title: Stripy Sock
+      #  sub_title: COVIDSafe Testing Associate
+      #  caption: April 2020
+      #  description: | # this will include new lines to allow paragraphs
+      #      As a tester on COVIDSafe, I gained valuable experience in software testing and the development lifecycles. I assisted in the testing of the efficacy of the contact tracing technology, including contributing to the large scale field test. The project taught me about software testing methodology, and I was happy I was able to contribute to a critical project during the pandemic.
+              
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        title: Australian National University
+        caption: 2018 - Present
+        sub_title: B Software Engineering (Honours)
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+          * Major: Advanced Intelligent Systems
+          * Minor: Computer Science Foundations
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+          I have completed the majority of the required coursework for my degree. In order to graduate, 
+          I require professional work experience in a related field.
 
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+#  - title: A Little More About Me
+#    layout: text
+#    content: | # this will include new lines to allow paragraphs
+#      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+#      - Rock climbing
 
 # Footer
 footer_show_references: true
