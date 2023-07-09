@@ -93,6 +93,12 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        title: Stripy Sock
+        sub_title: TapApp
+        caption: April 2023 - Present
+        description: | # this will include new lines to allow paragraphs
+            I was a junior Android developer for TapApp, a app for offenders developed in collaboration with the New South Wales government. As a developer, part of by job was self directed developmet of features that involved in-depth knowledge of techonolgies such as Jetpack Compose and best practice Android app architecture.
+      - layout: left
         title: Big W
         link: https://www.bigw.com.au
         link_text: bigw.com.au
@@ -112,12 +118,7 @@ content:
             Throughout my time at BiPi, I learned a lot about React Native, especially its capabilities for cross-platform mobile application development. I also gained experience in Agile methodologies, including Scrum and Kanban, which helped our team work together more efficiently and effectively.
 
             Overall, my experience as a React Native developer at BiPi was extremely fulfilling, and I am proud of the work that the team and I accomplished. The skills and knowledge that I gained during my time there have been invaluable, and I look forward to using them in future projects.
-      #- layout: left
-      #  title: Stripy Sock
-      #  sub_title: COVIDSafe Testing Associate
-      #  caption: April 2020
-      #  description: | # this will include new lines to allow paragraphs
-      #      As a tester on COVIDSafe, I gained valuable experience in software testing and the development lifecycles. I assisted in the testing of the efficacy of the contact tracing technology, including contributing to the large scale field test. The project taught me about software testing methodology, and I was happy I was able to contribute to a critical project during the pandemic.
+    
               
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
