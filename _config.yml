@@ -94,7 +94,7 @@ content:
     content:
       - layout: left
         title: Stripy Sock
-        sub_title: TapApp
+        sub_title: Junior Developer
         caption: April 2023 - Present
         description: | # this will include new lines to allow paragraphs
             I was a junior Android developer for TapApp, a app for offenders developed in collaboration with the New South Wales government. As a developer, part of by job was self directed developmet of features that involved in-depth knowledge of techonolgies such as Jetpack Compose and best practice Android app architecture.
