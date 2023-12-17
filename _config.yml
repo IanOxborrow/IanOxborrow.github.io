@@ -93,9 +93,15 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        title: Origma Pty Ltd
+        sub_title: Python Developer
+        caption: August 2023 - December 2023
+        description: |
+          During my time at Origma, I was assigned to work on various open source project that would contribute in a positive way to the community. I chose to work on an automated moderation bot for a Reddit-like platform called Lemmy. This project gave me the opportunity to apply the machine learning knowledge I had gained at ANU in a practical context, while also giving me experience in updating an application with existing releases and an existing userbase.
+      - layout: left
         title: Stripy Sock
         sub_title: Junior Developer
-        caption: April 2023 - Present
+        caption: April 2023 - August 2023
         description: | # this will include new lines to allow paragraphs
             I was a junior Android developer for TapApp, a app for offenders developed in collaboration with the New South Wales government. As a developer, part of by job was self directed developmet of features that involved in-depth knowledge of techonolgies such as Jetpack Compose and best practice Android app architecture.
       - layout: left
@@ -125,14 +131,11 @@ content:
     content:
       - layout: left
         title: Australian National University
-        caption: 2018 - Present
+        caption: 2018 - 2023
         sub_title: B Software Engineering (Honours)
         description: | # this will include new lines to allow paragraphs
           * Major: Advanced Intelligent Systems
           * Minor: Computer Science Foundations
-
-          I have completed the majority of the required coursework for my degree. In order to graduate, 
-          I require professional work experience in a related field.
 
 #  - title: A Little More About Me
 #    layout: text
