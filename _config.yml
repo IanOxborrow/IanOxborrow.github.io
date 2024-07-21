@@ -68,13 +68,13 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         description: | # this will include new lines to allow paragraphs
-          This project was an experiment in using machine learning techinques in conjunction with mathematical techinques to morphed a face to match a target. Through the identification of facial landamarks, a thin plate spline is generated, allowing for smooth transitions between two images.
+          This project was an experiment in using machine learning in conjunction with mathematical techniques to morph a face into a target. Through the identification of facial landmarks, a thin plate spline is generated, allowing for smooth transitions between two images.
       - layout: top-middle
         title: Sensible
         link: https://play.google.com/store/apps/details?id=au.com.erigma.sensible
         link_text: Sensible on Google Play
         description: |
-          Developed a cross platform data collection app using React Native. As part of the project, I had to collaborate as a technology lead within a small team of six. During this period, I also familiarised and trained new developers with the codebase and technology stack.   
+          I developed a cross platform data collection app using React Native. As part of the project, I had to collaborate as a technology lead within a small team of six. During this period, I also familiarised and trained new developers with the codebase and technology stack.   
       - layout: top-middle
         title: Developed server running Flux and Kubernetes
         link: 
@@ -87,7 +87,7 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         description: | # this will include new lines to allow paragraphs
-          This project was started as a way of teaching myself how to use Kubernetes. Since then, the cluster now manages most of my servers. In its current state the cluster is running Prometheus, Grafana, Plex, Tautulli, Jellyfin, Terraria and Minecraft with plans to introduce a nextcloud instance and a jupyterhub instance.
+          This project was started as a way of teaching myself how to use Kubernetes. Since then, the cluster now manages most of my servers. In its current state the cluster is running Prometheus, Grafana, Plex, Tautulli, Jellyfin, Terraria and Minecraft with plans to introduce a NextCloud instance and a JupyterHub instance.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -103,7 +103,7 @@ content:
         sub_title: Junior Developer
         caption: April 2023 - August 2023
         description: | # this will include new lines to allow paragraphs
-            I was a junior Android developer for TapApp, a app for offenders developed in collaboration with the New South Wales government. As a developer, part of by job was self directed developmet of features that involved in-depth knowledge of techonolgies such as Jetpack Compose and best practice Android app architecture.
+            I was a junior Android developer for TapApp, a app for offenders developed in collaboration with the New South Wales government. As a developer, part of by job was self directed development of features that involved in-depth knowledge of technologies such as Jetpack Compose and best practice Android app architecture.
       - layout: left
         title: Big W
         link: https://www.bigw.com.au
@@ -111,7 +111,7 @@ content:
         sub_title: Fill Team
         caption: November 2017 - Present
         description: | # this will include new lines to allow paragraphs
-            My role in Big W was as a fill team member. This role had me working in small teams of two to six and had me interfacing directly with customers. Durning this period I learned to effectivly work within an orginastional structure with a customer facing focus, as wall as leading small teams.
+            My role in Big W was as a fill team member. This role had me working in small teams of two to six and had me interfacing directly with customers. Durning this period I learned to effectively work within an organisational structure with a customer facing focus, as wall as leading small teams.
       - layout: left
         title: BiPi Pty Ltd
         sub_title: Lead Developer
